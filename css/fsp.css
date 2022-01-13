@@ -1,0 +1,184 @@
+/* Generale Usecase */
+
+@font-face{
+    font-family: Inter; src: url('../Inter-Regular.ttf');
+    font-family: Montserrat; src: url('../Montserrat-Medium.ttf');
+}
+
+body{
+    background-color: rgb(11,13,33);
+}
+body{
+    margin: 0%;
+}
+/* Head/navigation usecase */
+header{
+    font-family: Inter, sans-serif;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav div{
+    padding: 0px 8px 0px 8px;
+}
+
+.bandeau{
+    background-color: #EF6A8E;
+    width: 100%;
+    word-spacing: 4px;
+}
+
+.bandeau p{
+    margin-top: 0%;
+    padding-left: 10%;
+}
+
+.connect-button {
+    margin-top: -1%;
+    margin-left: 5px;
+    padding: 12px 80px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+}
+.connect-button:hover{
+    background-color: white;
+    font-size: 20px;
+    
+}
+.register-button {
+    margin-top: -1%;
+    margin-left: 5px;
+    padding: 12px 80px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #4144E8;
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    font-family: Inter, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+}
+
+.register-button:hover{
+    background-color: #5356ff;
+    font-size: 20px;
+
+    
+}
+
+/* Main usecase */
+
+main{
+    padding-top: 3%;
+    font-family: Montserrat;
+    color: white;
+}
+
+main h1{
+    font-size: 36px;
+}
+main .card{
+    margin-left: 26.5%;
+}
+
+.informations{
+    color: #d0c4ff;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    padding-right: 16%;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #30363a;
+    width: 47%;
+    background-color: #0D0F21;
+}
+
+.card1{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #30363a;
+    width: 47%;
+    background-color: #0D0F21;
+}
+.card2{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #30363a;
+    width: 47%;
+    background-color: #0D0F21;
+}
+.card3{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #30363a;
+    width: 47%;
+    background-color: #0D0F21;
+}
+
+.inf{
+    color: #d0c4ff;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    
+}
+
+.comment-box{
+    width: 100%;
+    margin-bottom: 4px;
+    background-color: #181b3d;
+    border-radius: 4px;
+}
+
+button{
+    color: white;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    padding: 0.4% 5.5% 0.4% 5.5%;
+    margin-bottom: 2%;
+}
+
+button:hover{
+    background-color: rgb(27, 27, 27);
+}

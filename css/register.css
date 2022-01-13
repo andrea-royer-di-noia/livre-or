@@ -1,0 +1,146 @@
+/* Generale Usecase */
+
+@font-face{
+    font-family: Inter; src: url('../Inter-Regular.ttf');
+    font-family: Ikaros; src: url('../Ikaros-Regular.otf');
+    font-family: Montserrat; src: url('../Montserrat-Medium.ttf');
+
+}
+
+body{
+    background-color: rgb(11,13,33);
+    color: white;
+}
+
+body{
+    margin: 0%;
+}
+
+
+/* Head/navigation usecase */
+
+header{
+    font-family: Inter, sans-serif;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav div{
+    padding: 0px 8px 0px 8px;
+}
+
+.bandeau{
+    background-color: #EF6A8E;
+    width: 100%;
+    word-spacing: 4px;
+}
+
+.bandeau p{
+    margin-top: 0%;
+    padding-left: 10%;
+}
+
+.home-button {
+    margin-top: -1%;
+    margin-left: 5px;
+    padding: 12px 80px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+}
+.home-button:hover{
+    background-color: white;
+    font-size: 20px;
+    
+}
+.connect-button {
+    margin-top: -1%;
+    margin-left: 5px;
+    padding: 12px 80px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #4144E8;
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    font-family: Inter, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+}
+
+.connect-button:hover{
+    background-color: #5356ff;
+    font-size: 20px;
+
+    
+}
+
+main{
+    padding-top: 3%;
+    font-family: Montserrat;
+    color: white;
+}
+
+main h1{
+    font-size: 36px;
+}
+main .card{
+    margin-left: 26.5%;
+}
+
+.informations{
+    color: #d0c4ff;
+    font-size: 10px;
+    font-family: Inter, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #30363a;
+    width: 47%;
+    background-color: #0D0F21;
+}
+
+.pp{
+    padding-right: 1.2%;
+}
+.cp{
+    padding-right: 17.2%;
+}
+input{
+    border-radius: 4px;
+    font-family: Montserrat;
+}
+.green input:hover{
+    background-color: rgb(9, 255, 0);
+}
+

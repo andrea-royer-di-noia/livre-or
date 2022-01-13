@@ -1,0 +1,144 @@
+/* Generale Usecase */
+
+
+@font-face{
+    font-family: Inter; src: url('../Inter-Regular.ttf');
+    font-family: Ikaros; src: url('../Ikaros-Regular.otf'); 
+
+} 
+
+
+body{
+    background-color: #0C0C0C;
+    color: white;
+
+}
+
+
+/* Head/navigation usecase */
+
+
+.navigation a{
+    font-family: Inter, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-left: 17%;
+    font-size: 14px;
+}
+
+nav .navigation{
+    margin-left: -15%;
+    margin-right: 30%;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation a{
+    padding: 0% 12% 0% 12%;
+}
+nav a{
+    text-decoration: none;
+}
+
+.button{
+    margin-top: -1%;
+    margin-left: 5px;
+    padding: 12px 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+}
+
+.button:hover{
+    background-color: #fff;
+}
+
+.button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-logo{
+    position: absolute;
+    padding-top: 1.2%;
+    padding-left: 6%;
+}
+
+/* Main usecase */
+
+main{
+    font-family: Ikaros, sans-serif;
+    font-size: 70px;
+}
+
+
+.text-span{
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: -25px;
+    padding: 10px 25px 5px;
+    border-radius: 20px;
+    background-color: #4144e8;
+    font-family: Ikaros, sans-serif;
+    color: #fff;
+    font-size: 80px;
+}
+
+.main-block{
+    padding-top: 8%;
+    padding-left: 12%;
+    line-height: 90px;
+    margin-bottom: 0%;
+}
+
+.sub-block{
+    display: flex;
+    flex-direction: column;
+}
+.little-block{
+    font-size: 17px;
+    color: #e7e7e7;
+    padding-left: 12.5%;
+}
+
+
+/* Footer usecase */
+
+
+.ethlogo{
+    padding-left: 24%;
+    margin-top: -2.7%;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 12%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+
+}
+
+.footer-logo li{
+    padding: 0% 0.75% 0% 0.75%;
+}
+

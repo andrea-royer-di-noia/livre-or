@@ -1,0 +1,47 @@
+@font-face{
+    font-family: Inter; src: url('../Inter-Regular.ttf');
+    font-family: Montserrat; src: url('../Montserrat-Medium.ttf');
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11,13,33);
+    align-items: center;
+
+}
+
+header{
+    margin-top: 30px;
+}
+nav a{
+    text-decoration: none;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.home-button {
+    margin-top: -1%;
+    margin-left: 5px;
+    padding: 12px 80px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    -webkit-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+}
+.home-button:hover{
+    background-color: white;
+    font-size: 20px;
+    
+}
